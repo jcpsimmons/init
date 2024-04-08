@@ -25,7 +25,7 @@ for app in "${apps[@]}"; do
 done
 
 # Install command line tools and packages
-packages=("wget" "yarn" "node" "rbenv" "nmap" "pidof" "btop" "nvm" "ripgrep" "fzf" "neovim" "tmux" "jq" "tree" "rename" "gh" "ffmpeg" "go" "watch" "httrack")
+packages=("wget" "yarn" "node" "rbenv" "nmap" "pidof" "btop" "nvm" "ripgrep" "fzf" "neovim" "tmux" "jq" "tree" "rename" "gh" "ffmpeg" "go" "watch" "httrack" "switchaudio-osx" "deno" "bun")
 for package in "${packages[@]}"; do
     echo "Installing $package..."
     brew install $package || echo "Failed to install $package, continuing..."
